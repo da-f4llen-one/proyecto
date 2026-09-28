@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'ultrafont';
+    src: url('fontsource-converted/VCR_OSD_MONO_1.001.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(https://media1.tenor.com/m/hGC91rQglLYAAAAd/maxwell-cat.gif);
+    background-blend-mode: multiply;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 10px black;
+}
+
+header h1 {
+    margin-left: 50px;
+}
+
+header nav {
+    margin-top: 10px;
+    margin-left: 1250px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    border-radius: 8px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 10px black;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    gap: 165px;
+}
+
+footer {
+    background-color: white;
+    border-radius: 8px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 10px black;
+    margin-top: 50px;
+    padding: 5px;
+}
+footer p {
+    margin-left: 50px;
+}
+
+#bienvenida {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 10px black;
+    margin-top: 50px;
+    background-image: url(https://media1.tenor.com/m/RaIoPOO6e70AAAAC/roblox-roblox-memes.gif);
+    background-blend-mode: multiply;
+    color: white;
+}
+
+#bienvenida ul{
+    display: flex;
+    gap: 250px;
+    list-style: none;
+    margin-left: 690px;
+}
+
+#bienvenida a {
+    text-decoration: none;
+}
+
+.si {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 4px;
+}
+.no {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.ultraki img{
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+}
+.ultraki {
+    background-color: black;
+    border: solid 2px red;
+    border-radius: 8px;
+    width: 500px;
+    color: red;
+    font-family: 'ultrafont';
+    text-align: center;
+    box-shadow: 4px 4px 10px red;
+}
+
+.skulgi img{
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+}
+.skulgi {
+    background-color: rgb(161, 57, 57);
+    border: solid 2px rgb(247, 255, 12);
+    border-radius: 8px;
+    width: 500px;
+    color: rgb(177, 176, 153);
+    text-align: center;
+    box-shadow: 4px 4px 10px yellow;
+}
+
+.zzz img{
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+}
+.zzz {
+    background-color: rgb(69, 144, 219);
+    border: solid 2px rgb(67, 247, 54);
+    border-radius: 8px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 4px 4px 10px rgb(67, 247, 54);
+}
